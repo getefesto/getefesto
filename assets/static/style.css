@@ -1,42 +1,129 @@
-body {
-    font-family: 'Verdana', sans-serif;
-    margin: 50px 25px;
+/* Custom CSS */
+/*------------General classes--------------------*/
+.inline {
+  display: inline-block;
 }
 
-a {
-    color: #2a99b6;
+
+/*----------- Menu --------------------- */
+.top-bar, .top-bar ul {
+  background-color: #f9f9f9;
 }
 
-a:hover {
-    color: #33bbdf;
+
+.top-bar-left,
+.top-bar-right {
+  width: auto;
 }
 
-header, footer, div.page {
-    width: 760px;
-    margin: 0 auto;
-    background: #daeef3;
-    padding: 20px 30px;
+
+nav {
+  vertical-align: middle;
 }
 
-header h1 {
-    color: #169bbd;
-    margin: 0;
-    font-weight: normal;
-    font-size: 42px;
+
+nav a {
+  color: #0a0a0a;
 }
 
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+.menu-icon {
+  position: relative;
+  font-size: 4rem;
+  color: #333;
+  transition: all 0.4s ease-in-out;
+  right: 10px;
+  top: 10px;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 8px 0 0;
-    padding: 0;
+
+.menu-icon:hover {
+  transition: all 0.4s ease-in-out;
+  color: gray;
 }
 
-div.page {
-    background: #f1fbfe;
+
+.overlay-menu {
+  display: none;
+  text-align: center;
+  background-color: grey;
+  padding: 1.6rem 0;
 }
+
+
+.overlay-menu ul {
+  list-style: none;
+  margin: 0;
+}
+
+
+.overlay-menu li {
+  font-size: 1.5rem;
+}
+
+
+.overlay-menu a {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  height: 5.25rem;
+  line-height: 5.25rem;
+  text-decoration: none;
+}
+
+
+.overlay-menu a:hover {
+  background-color: #3CB371;
+}
+
+
+.overlay-menu.is-open {
+  display: block;
+}
+
+
+.is-open {
+  top: 0;
+  opacity: 1;
+}
+
+
+.sticky {
+  width:100%;
+}
+
+
+/* --------------------- masthead -------------------*/
+.masthead {
+  background: url("http://placehold.it/1920x900") no-repeat center center;
+  text-align:center;
+  height: 480px;
+  display: table;
+  width: 100%;
+}
+
+
+.content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.masthead p {
+  font-size: 1.2em;
+}
+
+@media screen and (min-height: 640px){
+  .masthead {
+    height: 640px;
+  }
+}
+
+@media screen and (min-height: 1024px){
+  .masthead {
+    height: 900px;
+  }
+}
+
+
