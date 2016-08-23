@@ -9,6 +9,11 @@
 .top-bar,
 .top-bar ul {
   background-color: transparent;
+  /*
+    background-color: rgb(225,59,61);
+    background-color: rgb(59, 225, 61);
+    background-color: rgb(59, 61, 225);
+   */
 }
 
 
