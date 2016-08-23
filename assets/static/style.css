@@ -101,9 +101,7 @@ nav a {
 
 /* --------------------- masthead -------------------*/
 .masthead {
-  background: url("http://placehold.it/1920x900") no-repeat center center;
   text-align:center;
-  height: 480px;
   display: table;
   width: 100%;
 }
