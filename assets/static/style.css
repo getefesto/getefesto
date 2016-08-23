@@ -6,8 +6,9 @@
 
 
 /*----------- Menu --------------------- */
-.top-bar, .top-bar ul {
-  background-color: #f9f9f9;
+.top-bar,
+.top-bar ul {
+  background-color: transparent;
 }
 
 
@@ -125,5 +126,3 @@ nav a {
     height: 900px;
   }
 }
-
-
