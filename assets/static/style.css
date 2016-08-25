@@ -134,3 +134,10 @@ nav a {
     height: 900px;
   }
 }
+
+/*-------------------- custom -----------*/
+.masthead p:first-child {
+    font-size: 2em;
+    margin: 2em auto;
+    width: 50%;
+}
