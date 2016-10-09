@@ -60,4 +60,4 @@ Build REST applications quickly and without headaches.
 
 Developed with security, performance and ease-of-use in mind.
 
-<button class="button">Get started</button>
+<a class="button" href="/documentation/install">Get started</a>
