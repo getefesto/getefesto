@@ -4,14 +4,7 @@ Efesto: Python REST microserver
 ---
 body:
 
-<section class="masthead">
-            <div class="content">
-                <p>Build REST applications quickly and without headaches.</p>
-                <p>Developed with security, performance and ease-of-use in mind.</p>
-                <button class="button">Get started</button>
-            </div>
-        </section>
-        <section class="text-center">
+<section class="text-center">
             <p>Efesto is a REST microserver that can deliver an API in minutes. 
                 It takes care of authentication, permissions and kickstarts you 
                 by providing a simple way to build a data structure and the means 
@@ -60,3 +53,11 @@ body:
                 </div>
             </div>
         </section>
+---
+masthead:
+
+Build REST applications quickly and without headaches.
+
+Developed with security, performance and ease-of-use in mind.
+
+<button class="button">Get started</button>
