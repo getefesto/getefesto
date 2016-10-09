@@ -11,14 +11,14 @@ body:
                 <button class="button">Get started</button>
             </div>
         </section>
-        <section style="text-align:center;">
+        <section class="text-center">
             <p>Efesto is a REST microserver that can deliver an API in minutes. 
                 It takes care of authentication, permissions and kickstarts you 
                 by providing a simple way to build a data structure and the means 
                 to expose it.
             </p>
         </section>
-        <section style="text-align:center;">
+        <section class="text-center">
             <div class="row">
                 <div class="small-6 medium-4 column">
                     <span class="fa fa-cubes fa-2x"></span>
@@ -38,7 +38,7 @@ body:
                 </div>
             </div>
         </section>
-        <section style="text-align:center;">
+        <section class="text-center">
             <h3>Not sure yet?</h3>
             <div class="row">
                 <div class="small-6 medium-4 column">
