@@ -14,12 +14,7 @@ main {
 /*----------- Menu --------------------- */
 .top-bar,
 .top-bar ul {
-  background-color: transparent;
-  /*
-    background-color: rgb(225,59,61);
-    background-color: rgb(59, 225, 61);
-    background-color: rgb(59, 61, 225);
-   */
+  background-color: #ff4545;
 }
 
 
@@ -29,7 +24,7 @@ main {
 }
 
 
-.top-bar-center{
+.top-bar-center {
     text-align:center;
 }
 
@@ -40,7 +35,7 @@ nav {
 
 
 nav a {
-  color: #0a0a0a;
+  color: #fefefe;
 }
 
 
