@@ -1,4 +1,10 @@
 /* Custom CSS */
+main {
+    width: 100%;
+    height: 100%;
+}
+
+
 /*------------General classes--------------------*/
 .inline {
   display: inline-block;
@@ -106,9 +112,12 @@ nav a {
 
 /* --------------------- masthead -------------------*/
 .masthead {
-  text-align:center;
+  text-align: center;
   display: table;
   width: 100%;
+  height: 95%;
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 
@@ -123,17 +132,6 @@ nav a {
   font-size: 1.2em;
 }
 
-@media screen and (min-height: 640px){
-  .masthead {
-    height: 640px;
-  }
-}
-
-@media screen and (min-height: 1024px){
-  .masthead {
-    height: 900px;
-  }
-}
 
 /*-------------------- custom -----------*/
 .masthead p:first-child {
