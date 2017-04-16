@@ -130,6 +130,8 @@ nav a {
 
 .masthead p {
   font-size: 1.2em;
+  text-shadow: 0 0 50px #2d282a, 0 0 30px #2d282a, 0 0 2px #2d282a;
+  color: #fefefe;
 }
 
 
