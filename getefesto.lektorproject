@@ -3,6 +3,7 @@ name = getefesto
 
 [packages]
 lektor-netlify = 0.1
+lektor-minify = 1.2
 
 [servers.netlify]
 name = Netlify
