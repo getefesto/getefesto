@@ -5,6 +5,11 @@ main {
 }
 
 
+main section:nth-child(2) {
+    margin-top: 2rem;
+}
+
+
 /*------------General classes--------------------*/
 .inline {
   display: inline-block;
