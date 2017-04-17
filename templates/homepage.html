@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block main %}
+<section class="masthead">
+    <div class="content">
+        {{this.masthead}}
+        <a class="button" href="{{this.masthead_button_link}}">{{this.masthead_button}}</a>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="small-12 column">
+            <p>{{this.introduction}}</p>
+        </div>
+     </div>
+</section>
+{{this.body}}
+{% endblock %}
