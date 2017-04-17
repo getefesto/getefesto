@@ -35,10 +35,9 @@
           </div>
         </header>
         <main>
-            <section class="masthead">
-                <div class="content">{{this.masthead}}</div>
-            </section>
-            {{this.body}}
+            {% block main %}
+                {{this.body}}
+            {% endblock %}
         </main>
         <script
             src="https://code.jquery.com/jquery-2.2.1.min.js"
