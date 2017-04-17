@@ -1,17 +1,7 @@
-title:
-
-Efesto: RESTful API microservice
+title: Efesto: RESTful API microservice
 ---
 body:
-<section>
-    <div class="row">
-        <div class="small-12 column">
-            <p>Efesto provides RESTful access to data, without getting in the way.
-             Easily combine it with other microservices to build the infrastructure you like,
-             without sacrificing freedom </p>
-        </div>
-     </div>
-</section>
+
 <section>
             <div class="row">
                 <div class="small-6 medium-4 column">
@@ -56,5 +46,11 @@ masthead:
 High performance RESTful microservice
 
 Developed with security, performance and ease-of-use in mind
-
-<a class="button" href="/documentation/install">Get started</a>
+---
+introduction: Efesto provides RESTful access to data, without getting in the way. Easily combine it with other microservices to build the infrastructure you like, without sacrificing freedom
+---
+masthead_button: Get started
+---
+masthead_button_link: /documentation/install
+---
+_model: homepage
