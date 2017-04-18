@@ -4,17 +4,6 @@ main {
 }
 
 
-main section:nth-child(2),
-main section:nth-child(3) {
-    margin: 4rem 0;
-}
-
-
-main section:nth-child(2) p {
-    font-size: 1.6rem;
-}
-
-
 a {
     color: #ff4545;
 }
@@ -30,6 +19,11 @@ a:focus {
 /*------------General classes--------------------*/
 .inline {
   display: inline-block;
+}
+
+
+.space-vertical-4 {
+    margin: 4rem 0;
 }
 
 
@@ -176,4 +170,9 @@ nav a {
 
 .masthead .button:hover {
     background-color: #ff5555;
+}
+
+
+.introduction {
+    font-size: 1.6rem;
 }
