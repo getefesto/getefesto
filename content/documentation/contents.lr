@@ -1,3 +1,26 @@
-_model: page
+_model: docs
 ---
 title: Documentation
+---
+body:
+
+Welcome to the documentation. Here you will find instructions and guides
+that will help you understand how to effectively use efesto.
+Before reading this documentation, you should obtain a good grasp of what is
+a RESTful application and what are microservices.
+
+## Getting started
+You can install efesto from pip. Then you will need to edit the configuration
+to suit your needs, and launch the setup:
+
+```bash
+pip install efesto
+vim efesto.cfg
+efesto-quickstart
+```
+
+You should now be ready to use efesto:
+
+```bash
+gunicorn efesto.App:app
+```
