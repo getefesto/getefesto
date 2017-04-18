@@ -19,6 +19,11 @@
                     <nav class="show-for-medium inline">
                       <ul class="menu inline">
                         <li><a href="/">Home</a></li>
+                        {% for item in site.get('/').children %}
+                            <li>
+                                <a href="{{ item | url }}">{{item.title}}</a>
+                            </li>
+                        {% endfor %}
                       </ul>
                     </nav>
                 </div>
@@ -29,7 +34,11 @@
               <aside class="overlay-menu">
                 <ul>
                   <li><a href="/">Home</a></li>
-                  <li><a href="/documentation">Documentation</a></li>
+                  {% for item in site.get('/').children %}
+                      <li>
+                          <a href="{{ item | url }}">{{item.title}}</a>
+                      </li>
+                  {% endfor %}
                 </ul>
               </aside>
             </div>
