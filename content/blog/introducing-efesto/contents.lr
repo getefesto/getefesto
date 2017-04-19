@@ -1,0 +1,21 @@
+_model: post
+---
+title: Introducing Efesto
+---
+content:
+
+After some time of development Efesto reached a kind-of-mature point, so I'd like to see whether is actually useful to others and how they are using it, since it came out of finding other similar tools inadequate, either in terms of usability or their inner workings. I was sort of surprised, as RESTful applications have become the standard way of building a backend that where was nothing that combined access to data, a simple (but still useful) permissions system, OAuth2 and performance. So here it is!  
+
+What's next? Better documentation and community, as finding how to do something, being able to ask for help and find others who like to work in the same way you do is priceless and make development fun again.
+
+
+
+
+---
+date: 2017-04-19 07:34:00
+---
+introduction:
+
+Efesto has been released to the public for some time, and well, now it also has its own place!  
+---
+description: Introducing Efesto and its new shiny place
