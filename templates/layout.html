@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ '/static/foundation.min.css'|url }}">
         <link rel="stylesheet" href="{{ get_pygments_stylesheet() |url }}">
         <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-        <title>{{this.title}}</title>
+        <title>{% block title %}{{this.title}}{% endblock %}</title>
         <meta name="description" content="{{this.description}}">
     </head>
     <body>
