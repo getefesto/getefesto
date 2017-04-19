@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block main %}
+<div class="row">
+    <div class="12-small column">
+        <article class="blog">
+            <header>
+                <h2>{{this.title}}</h2>
+                <span class="date-span">
+                    <span class="fa fa-calendar"></span>
+                    <time datetime="{{this.date}}">{{this.date.strftime('%B %d, %Y')}}</time>
+                </span>
+            </header>
+            <div>
+                {{this.introduction}}
+                {{this.content}}
+            </div>
+        </article>
+    </div>
+
+</div>
+{% endblock %}
