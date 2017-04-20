@@ -3,3 +3,5 @@ _model: page
 title: Blog
 ---
 _template: blog.html
+---
+description: Read about efesto on the official blog
