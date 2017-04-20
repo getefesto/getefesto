@@ -2,10 +2,5 @@
 name = getefesto
 
 [packages]
-lektor-netlify = 0.1
 lektor-minify = 1.2
 lektor-markdown-highlighter = 0.1
-
-[servers.netlify]
-name = Netlify
-target = netlify://getefesto.com
