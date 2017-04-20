@@ -1,24 +1,26 @@
 {% extends "layout.html" %}
 {% block main %}
-    <div class="row">
-        <div class="12-small column">
-            <section class="article blog">
-            {% for post in site.get('/blog').children %}
-                <ul>
-                    <li>
-                        <h2><a href="{{ post | url }}">{{post.title}}</a></h2>
-                        <span class="date-span">
-                            <span class="fa fa-calendar"></span>
-                            <time datetime="{{post.date}}">{{post.date.strftime('%B %d, %Y')}}</time>
-                        </span>
-                        <div>
-                            {{post.introduction}}
-                        </div>
-                        <a href="{{ post | url }}">Read more <span class="fa fa-chevron-right"></span></a>
-                    </li>
-                </ul>
-            {% endfor %}
-            </section>
+    <main>
+        <div class="row">
+            <div class="12-small column">
+                <section class="article blog">
+                {% for post in site.get('/blog').children %}
+                    <ul>
+                        <li>
+                            <h2><a href="{{ post | url }}">{{post.title}}</a></h2>
+                            <span class="date-span">
+                                <span class="fa fa-calendar"></span>
+                                <time datetime="{{post.date}}">{{post.date.strftime('%B %d, %Y')}}</time>
+                            </span>
+                            <div>
+                                {{post.introduction}}
+                            </div>
+                            <a href="{{ post | url }}">Read more <span class="fa fa-chevron-right"></span></a>
+                        </li>
+                    </ul>
+                {% endfor %}
+                </section>
+            </div>
         </div>
-    </div>
+    </main>
 {% endblock %}
