@@ -8,7 +8,15 @@
         <link rel="stylesheet" href="{{ '/static/foundation.min.css'|url }}">
         <link rel="stylesheet" href="{{ get_pygments_stylesheet() |url }}">
         <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-        <title>{% block title %}{{this.title}}{% endblock %}</title>
+        <title>
+            {% block title %}
+                {% if this._path == '/' %}
+                    {{this.title}}
+                {% else %}
+                    {{this.title}} - {{site.get('/').title }}
+                {% endif %}
+            {% endblock %}
+        </title>
         <meta name="description" content="{{this.description}}">
     </head>
     <body>
