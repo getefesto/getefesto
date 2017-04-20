@@ -29,8 +29,15 @@ p {
 }
 
 
-.space-vertical-4 {
-    margin: 4rem 0;
+.small-90 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+.small-vertical-1 {
+    margin-top: 1rem;
 }
 
 
@@ -180,11 +187,6 @@ nav a {
 }
 
 
-.introduction {
-    font-size: 1.6rem;
-}
-
-
 /* --------------------- docs -------------------*/
 .highlight {
     background-color: #f6f8fa;
@@ -236,6 +238,29 @@ nav a {
 }
 
 
-footer.space-vertical-4 {
+footer {
+    margin-top: 4rem;
     margin-bottom: 1rem;
+}
+
+
+/* ------ media queries ---- */
+@media screen and (min-width: 640px) {
+    .small-90 {
+        width: auto;
+        text-align: left;
+    }
+
+    .small-vertical-1 {
+        margin-top: 0;
+    }
+
+    .medium-vertical-4 {
+        margin: 4rem 0;
+    }
+
+
+    .introduction {
+        font-size: 1.6rem;
+    }
 }

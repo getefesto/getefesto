@@ -2,39 +2,38 @@ title: Efesto: RESTful API microservice
 ---
 body:
 
-<section class="space-vertical-4">
+<section class="medium-vertical-4 small-90">
             <div class="row">
-                <div class="small-6 medium-4 column">
+                <div class="small-12 medium-4 column small-vertical-1">
                     <h4><span class="fa fa-rocket"></span> Ready to launch</h4>
                     <p>Update the config file with your settings and you're ready
                     to go</p>
                 </div>
-
-                <div class="small-6 medium-4 column">
+                <div class="small-12 medium-4 column small-vertical-1">
                     <h4><span class="fa fa-book"></span> Extensive docs</h4>
                     <p>Extensive <a href="https://efesto.readthedocs.io">documentation</a>
                     and guides because I know how hard is getting
                     things right without</p>
                 </div>
-                <div class="small-6 medium-4 column">
+                <div class="small-12 medium-4 column small-vertical-1">
                     <h4><span class="fa fa-heart"></span> Open source</h4>
                     <p>Efesto is an <a href="https://github.com/getefesto/efesto">open source project</a>, released under the terms
                        of the General Public License v.3</p>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="medium-vertical-4 small-90">
             <div class="row">
-                <div class="small-6 medium-4 column">
+                <div class="small-12 medium-4 column small-vertical-1">
                     <h4><span class="fa fa-cubes"></span> Reliable</h4>
                     <p>Extensively tested and written on top of <a href="https://falconframework.org/">Falcon</a> and
                      PostgreSQL</p>
                 </div>
-                <div class="small-6 medium-4 column">
+                <div class="small-12 medium-4 column small-vertical-1">
                     <h4><span class="fa fa-certificate"></span> Quality code</h4>
                     <p>Code coverage of 97.1% and a code climate of 3.1/4.0</p>
                 </div>
-                <div class="small-6 medium-4 column">
+                <div class="small-12 medium-4 column small-vertical-1">
                     <h4><span class="fa fa-comments"></span> Community</h4>
                     <p>It's dangerous to go alone!</p>
                 </div>
