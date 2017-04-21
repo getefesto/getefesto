@@ -196,6 +196,19 @@ nav a {
 }
 
 
+.docs-nav ul {
+    list-style-type: none;
+}
+
+
+.docs-nav {
+    position: fixed;
+    min-height: 100%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
 /* --------------------- blog -------------------*/
 .article {
     margin-top: 2rem;

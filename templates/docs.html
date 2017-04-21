@@ -1,6 +1,24 @@
 {% extends "layout.html" %}
 {% block main %}
     <main>
+        <section class="docs-nav">
+            <ul>
+                {% for item in site.get('/documentation').children %}
+                    <li>
+                        <a href="{{ item | url }}">{{item.title}}</a>
+                        {% if item.children %}
+                            <ul>
+                                {% for child in item.children %}
+                                    <li>
+                                        <a href="{{ child | url }}">{{child.title}}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
         <div class="row">
             <div class="12-small column">
                 <section class="article">
