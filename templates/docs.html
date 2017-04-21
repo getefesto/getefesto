@@ -3,14 +3,26 @@
     <main>
         <section class="docs-nav">
             <ul>
-                {% for item in site.get('/documentation').children %}
+                {% set docs = site.get('/documentation') %}
+                <li>
+                    <a href="{{ docs | url }}">Introduction</a>
+                </li>
+                {% for item in docs.children %}
                     <li>
-                        <a href="{{ item | url }}">{{item.title}}</a>
+                        {% if this._path == item._path %}
+                            <a href="{{ item | url }}" class="active"><span class="fa fa-caret-right"></span> {{item.title}}</a>
+                        {% else %}
+                            <a href="{{ item | url }}"><span class="fa fa-caret-right"></span> {{item.title}}</a>
+                        {% endif %}
                         {% if item.children %}
                             <ul>
                                 {% for child in item.children %}
                                     <li>
-                                        <a href="{{ child | url }}">{{child.title}}</a>
+                                        {% if this._path == child._path %}
+                                            <a href="{{ child | url }}" class="active"><span class="fa fa-caret-right"></span> {{child.title}}</a>
+                                        {% else %}
+                                            <a href="{{ child | url }}"><span class="fa fa-caret-right"></span> {{child.title}}</a>
+                                        {% endif %}
                                     </li>
                                 {% endfor %}
                             </ul>

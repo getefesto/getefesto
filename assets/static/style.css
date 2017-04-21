@@ -1,5 +1,6 @@
 body,
 h2,
+h3,
 h4 {
     font-family: 'Raleway';
 }
@@ -201,11 +202,30 @@ nav a {
 }
 
 
+.docs-nav li {
+    line-height: 1.8;
+}
+
+
 .docs-nav {
-    position: fixed;
-    min-height: 100%;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    display: none;
+}
+
+
+.docs-nav .fa.fa-caret-right {
+    display: none;
+}
+
+
+.docs-nav .active .fa.fa-caret-right,
+.docs-nav a:hover .fa.fa-caret-right {
+    display: inline-block;
+}
+
+
+.active,
+.docs-nav a:hover {
+    color: #0a0a0a;
 }
 
 
@@ -264,9 +284,11 @@ footer {
         text-align: left;
     }
 
+
     .small-vertical-1 {
         margin-top: 0;
     }
+
 
     .medium-vertical-4 {
         margin: 4rem 0;
@@ -275,5 +297,14 @@ footer {
 
     .introduction {
         font-size: 1.6rem;
+    }
+
+
+    .docs-nav {
+        position: fixed;
+        min-height: 100%;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        display: block;
     }
 }
