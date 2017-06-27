@@ -1,0 +1,23 @@
+title: Installing
+---
+weight: 1
+---
+body:
+
+## Installing
+You can install efesto from pip. Then you will need to edit the configuration
+to suit your needs, and launch the setup:
+
+```bash
+pip install efesto
+vim efesto.cfg
+efesto-quickstart
+```
+
+You should now be ready to use efesto:
+
+```bash
+gunicorn efesto.App:app
+curl http://127.0.0.1
+{"message": "Running efesto 0.7.5"}
+```
