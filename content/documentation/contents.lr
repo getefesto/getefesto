@@ -4,23 +4,10 @@ title: Documentation
 ---
 body:
 
+## Introduction
 Welcome to the documentation. Here you will find instructions and guides
-that will help you understand how to effectively use efesto.
+that will help you understand how to effectively use Efesto.
 Before reading this documentation, you should obtain a good grasp of what is
-a RESTful application and what are microservices.
+a [RESTful application](https://en.wikipedia.org/wiki/Representational_state_transfer) and what are [microservices](https://en.wikipedia.org/wiki/Microservices), since these are the concepts upon which Efesto is based.
 
-## Getting started
-You can install efesto from pip. Then you will need to edit the configuration
-to suit your needs, and launch the setup:
-
-```bash
-pip install efesto
-vim efesto.cfg
-efesto-quickstart
-```
-
-You should now be ready to use efesto:
-
-```bash
-gunicorn efesto.App:app
-```
+Knowledge of json web tokens will be needed to understand the authentication system and familiarity with OAuth2 will help you in the grand scheme of things, but is not necessary
