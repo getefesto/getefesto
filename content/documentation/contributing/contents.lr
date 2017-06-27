@@ -1,0 +1,14 @@
+title: Contributing
+---
+weight: 11
+---
+body:
+
+## Contributing
+
+Efesto is an open source project, released under the terms of the GPL3 license.
+
+If you wish to contribute, you can visit the repository on [github](https://gihub.com/getefesto/efesto).
+The first step is reading the [contribution guide](https://github.com/getefesto/efesto/blob/master/CONTRIBUTING.md).
+
+You should also come and say hi on the [gitter channel](https://gitter.im/efesto-microservice)
